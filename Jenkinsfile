@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/por314ug/app-java-1.git', branch: 'main'
+                git url: 'https://github.com/plumjs1916/app-java.git', branch: 'main'
             }
         }
 
